@@ -54,6 +54,7 @@ button {
 hr {
 	width: 90%;
 	height: 2px;
+	margin: 24px 0;
 	background-color: #bc6c25;
 	border: none;
 }
@@ -83,4 +84,19 @@ hr {
 
 img {
 	width: 500px;
+}
+
+#menu-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 80%;
+	gap: 32px;
+}
+
+.menu-item {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	font-size: 48px;
 }
