@@ -1,20 +1,24 @@
 import spaghetti from "./images/spaghetti.jpg";
 
-function createPage() {
+function createHomePage() {
 	const container = document.querySelector("#content");
 
 	const header = document.createElement("h1");
 	header.innerText = "Welcome to my restaurant!";
+
 	const subtitle = document.createElement("h3");
-	subtitle.innerText = "it's the best ever";
+	subtitle.innerText = "It's the best ever";
+
 	const hr = document.createElement("hr");
 	const quoteContainer = document.createElement("div");
-	quoteContainer.setAttribute("id", "quote-container");
+	quoteContainer.id = "quote-container";
+
 	const img = document.createElement("img");
 	img.src = spaghetti;
 	img.setAttribute("alt", "spaghetti");
+
 	const quote = document.createElement("p");
-	quote.setAttribute("id", "quote");
+	quote.id = "quote";
 	quote.innerText =
 		"This restaurant is the best one I've ever seen! I would reccommend this to everyone";
 
@@ -27,4 +31,4 @@ function createPage() {
 	container.appendChild(quoteContainer);
 }
 
-export default createPage;
+export default createHomePage;

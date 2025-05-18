@@ -72,6 +72,10 @@ hr {
 	width: 100%;
 }
 
+p {
+	font-size: 32px;
+}
+
 #quote {
 	flex-grow: 1;
 	text-align: center;
