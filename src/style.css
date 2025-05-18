@@ -28,7 +28,11 @@ nav {
 
 button {
 	height: 50px;
-	width: 50px;
+	width: 100px;
+	font-size: 16px;
+	border-radius: 8px 8px 0 0;
+	background-color: #eecaa0;
+	border: 2px solid #bc6c25;
 	border-bottom: none;
 }
 
