@@ -23,12 +23,12 @@ header {
 nav {
 	background-color: inherit;
 	display: flex;
-	gap: 32px;
+	gap: 64px;
 }
 
 button {
 	height: 50px;
-	width: 100px;
+	width: 150px;
 	font-size: 16px;
 	border-radius: 8px 8px 0 0;
 	background-color: #eecaa0;
@@ -107,4 +107,8 @@ img {
 	justify-content: space-between;
 	width: 100%;
 	font-size: 48px;
+}
+
+.spacer {
+	height: 50px;
 }

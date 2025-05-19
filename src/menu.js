@@ -2,6 +2,10 @@ function createMenu() {
 	const container = document.querySelector("#content");
 	const title = document.createElement("h1");
 	title.innerText = "Menu";
+
+	const spacer = document.createElement("div");
+	spacer.classList.add("spacer");
+
 	const menu = document.createElement("div");
 	menu.id = "menu-container";
 	const foods = [
@@ -23,6 +27,7 @@ function createMenu() {
 	});
 
 	container.appendChild(title);
+	container.appendChild(spacer);
 	container.appendChild(menu);
 }
 

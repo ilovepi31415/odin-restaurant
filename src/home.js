@@ -9,6 +9,9 @@ function createHomePage() {
 	const subtitle = document.createElement("h3");
 	subtitle.innerText = "It's the best ever";
 
+	const spacer = document.createElement("div");
+	spacer.classList.add("spacer");
+
 	const hr = document.createElement("hr");
 	const quoteContainer = document.createElement("div");
 	quoteContainer.id = "quote-container";
@@ -27,6 +30,7 @@ function createHomePage() {
 
 	container.appendChild(header);
 	container.appendChild(subtitle);
+	container.appendChild(spacer);
 	container.appendChild(hr);
 	container.appendChild(quoteContainer);
 }
